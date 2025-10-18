@@ -10,15 +10,16 @@
     --bs-btn-hover-border-color: #1e3227;
     --bs-btn-active-bg: #36664c;
     --bs-btn-active-border-color: #36664c;
-rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #2e483a;
-    --bs-btn-disabled-border-color: #2e483a;
 }
 
 :root {
- 
+  --bs-body-bg: #f6f3ed;
+  --bs-primary: #2e483a;  
+  --bs-primary-rgb: 46, 72, 58; 
+  --bs-light: #f6f3ed;
 }
+
+
 
 
 
@@ -28,6 +29,7 @@ rgba(0, 0, 0, 0.125);
 }
 
 body {
+  background-color: var(--bs-body-bg);
   font-family: "Sarala", sans-serif;
 }
 
